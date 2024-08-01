@@ -1,7 +1,7 @@
 # Aim
 Writing a c++ code using the operators which 
 are arithmetic ,assignment,comaprision,logical
-and bitwise
+
 
 # C++ Operators Examples
 
@@ -13,7 +13,7 @@ and bitwise
 - [Logical Operators](#logical-operators)
 - [Comparison Operators](#comparison-operators)
 - [Assignment Operators](#assignment-operators)
-- [Bitwise Operators](#bitwise-operators)
+
 
 
 
@@ -57,16 +57,6 @@ Assignment operators are used to assign values to variables.
 - **Divide and assign (/=)**: Divides the left operand by the right operand and assigns the result to the left operand.
 - **Modulus and assign (%=)**: Takes the modulus using the two operands and assigns the result to the left operand.
 
-## Bitwise Operators
-
-Bitwise operators perform bit-level operations on operands.
-
-- **AND (&)**: Performs a bitwise AND operation.
-- **OR (|)**: Performs a bitwise OR operation.
-- **XOR (^)**: Performs a bitwise exclusive OR operation.
-- **NOT (~)**: Inverts all the bits of the operand.
-- **Left shift (<<)**: Shifts bits to the left by the specified number of positions.
-- **Right shift (>>)**: Shifts bits to the right by the specified number of positions.
 
   # CODE
 ```
@@ -178,18 +168,7 @@ int main()
     s <<= 3;
     cout << "\n" << s;
 
-    // Bitwise operators:
-    int f, v;
-    cout << "\nEnter the first number for bitwise operation: ";
-    cin >> f;
-    cout << "Enter the second number for bitwise operation: ";
-    cin >> v;
     
-    cout << "f & v = " << (f & v) << endl;
-    cout << "f | v = " << (f | v) << endl;
-    cout << "f ^ v = " << (f ^ v) << endl;
-    cout << "~(" << f << ") = " << (~f) << endl;
-    cout << "~(" << v << ") = " << (~v) << endl;
 
     return 0;
 }
@@ -204,7 +183,7 @@ Comparison Operators: Compare values using ==, !=, <, >, <=, >=.
 
 Assignment Operators: Combine assignment with operations (e.g., +=, -=).
 
-Bitwise Operators: Perform operations on bits (&, |, ^, ~, <<, >>).
+
 
 
   
