@@ -8,9 +8,9 @@ int main()
 {
     //arithmetic operators:
     int x,y,sum,sub,mult,divs,mod,inc,dcr;
-    cout<<"enter the first number:";
+    cout<<"enter the first number for arithmetic operation:";
     cin>>x;
-    cout<<"enter the number:";
+    cout<<"enter the second number for arithmetic operation:";
     cin>>y;
     sum=x+y;
     cout<<"x+y="<<sum;
@@ -26,9 +26,9 @@ int main()
     cout<<"\nx--="<<--x;
     //comparision operators:
     int w,z,eq,neq,geq,leq,g,l;
-    cout<<"\nenter the first number:";
+    cout<<"\nenter the first number for comparision:";
     cin>>w;
-    cout<<"enter the second number:";
+    cout<<"enter the second number for comparision:";
     cin>>z;
     eq=(w==z);
     cout<<"\n"<<eq;
@@ -50,9 +50,9 @@ int main()
    
      //logical operators:
     int j,k,a,o,n;
-    cout<<"\nenter the first number:";
+    cout<<"\nenter the first number for logical operation:";
     cin>>j;
-    cout<<"enter the second number:";
+    cout<<"enter the second number for logical operation:";
     cin>>k;
     cout<<"\n" << (x > 1 && x < 10);
     cout<<"\n" << (x > 1 || x < 10);
@@ -60,7 +60,7 @@ int main()
    
     //assignment operators:
         int s;
-        cout<<"\nenter the first number:";
+        cout<<"\nenter the first number for assignment:";
         cin>>s;
         cout<<"\n" <<s;
         s += 3;
@@ -87,9 +87,9 @@ int main()
 
 // bitwise operators
 int f,v;
-    cout<<"\nenter the first number:";
+    cout<<"\nenter the first numberv for bitwise operation:";
     cin>>f;
-    cout<<"enter the second number:";
+    cout<<"enter the second number for bitwise operation:";
     cin>>v;
     cout << "f & v = " << (f & v) << endl;
     cout << "f | v = " << (f | v) << endl;
