@@ -1,7 +1,7 @@
 //Sai Sankar Jena
 //23070123112
 //EnTC B2
-//Exp-2 operators
+//Exp-3 operators
 #include <iostream>
 using namespace std;
 int main()
