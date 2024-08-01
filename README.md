@@ -14,8 +14,6 @@ and bitwise
 - [Comparison Operators](#comparison-operators)
 - [Assignment Operators](#assignment-operators)
 - [Bitwise Operators](#bitwise-operators)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 
@@ -69,11 +67,7 @@ Bitwise operators perform bit-level operations on operands.
 - **NOT (~)**: Inverts all the bits of the operand.
 - **Left shift (<<)**: Shifts bits to the left by the specified number of positions.
 - **Right shift (>>)**: Shifts bits to the right by the specified number of positions.
-![Screenshot 2024-07-31 090431](https://github.com/user-attachments/assets/e0475e17-20a8-47d6-a8ae-cc1be9842bb5)
-![Screenshot 2024-07-31 095559](https://github.com/user-attachments/assets/4ba55a0b-1984-425f-b003-9ebfccd3f988)
-![Screenshot 2024-07-31 095627](https://github.com/user-attachments/assets/16603841-c00d-47f4-bb4d-0c4ce6a3af71)
-![Screenshot 2024-07-31 095650](https://github.com/user-attachments/assets/64696ccd-5e9d-46a0-829b-fd88eacd1737)
-![Screenshot 2024-07-31 095657](https://github.com/user-attachments/assets/0fead29f-786f-457b-b074-a0db2f44cc3e)
+  
 
 
   
