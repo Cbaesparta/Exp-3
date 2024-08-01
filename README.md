@@ -67,7 +67,144 @@ Bitwise operators perform bit-level operations on operands.
 - **NOT (~)**: Inverts all the bits of the operand.
 - **Left shift (<<)**: Shifts bits to the left by the specified number of positions.
 - **Right shift (>>)**: Shifts bits to the right by the specified number of positions.
-  
+
+  # CODE
+```
+// Sai Sankar Jena
+// 23070123112
+// EnTC B2
+// Exp-3 operators
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Arithmetic operators:
+    int x, y, sum, sub, mult, divs, mod, inc, dcr;
+    cout << "Enter the first number for arithmetic operation: ";
+    cin >> x;
+    cout << "Enter the second number for arithmetic operation: ";
+    cin >> y;
+    
+    sum = x + y;
+    cout << "x + y = " << sum;
+    
+    sub = x - y;
+    cout << "\nx - y = " << sub;
+    
+    mult = x * y;
+    cout << "\nx * y = " << mult;
+    
+    divs = x / y;
+    cout << "\nx / y = " << divs;
+    
+    mod = x % y;
+    cout << "\nx % y = " << mod;
+    
+    cout << "\nx++ = " << ++x;
+    cout << "\nx-- = " << --x;
+
+    // Comparison operators:
+    int w, z, eq, neq, geq, leq, g, l;
+    cout << "\nEnter the first number for comparison: ";
+    cin >> w;
+    cout << "Enter the second number for comparison: ";
+    cin >> z;
+    
+    eq = (w == z);
+    cout << "\n" << eq;
+    
+    leq = (w <= z);
+    cout << "\n" << leq;
+    
+    geq = (w >= z);
+    cout << "\n" << geq;
+    
+    g = (w > z);
+    cout << "\n" << g;
+    
+    l = (w < z);
+    cout << "\n" << l;
+    
+    neq = (w != z);
+    cout << "\n" << neq;
+
+    // Logical operators:
+    int j, k, a, o, n;
+    cout << "\nEnter the first number for logical operation: ";
+    cin >> j;
+    cout << "Enter the second number for logical operation: ";
+    cin >> k;
+    
+    cout << "\n" << (x > 1 && x < 10);
+    cout << "\n" << (x > 1 || x < 10);
+    cout << "\n" << (!(x > 1 && x < 10));
+
+    // Assignment operators:
+    int s;
+    cout << "\nEnter the first number for assignment: ";
+    cin >> s;
+    
+    cout << "\n" << s;
+    
+    s += 3;
+    cout << "\n" << s;
+    
+    s -= 3;
+    cout << "\n" << s;
+    
+    s *= 3;
+    cout << "\n" << s;
+    
+    s /= 3;
+    cout << "\n" << s;
+    
+    s %= 3;
+    cout << "\n" << s;
+    
+    s &= 3;
+    cout << "\n" << s;
+    
+    s |= 3;
+    cout << "\n" << s;
+    
+    s ^= 3;
+    cout << "\n" << s;
+    
+    s >>= 3;
+    cout << "\n" << s;
+    
+    s <<= 3;
+    cout << "\n" << s;
+
+    // Bitwise operators:
+    int f, v;
+    cout << "\nEnter the first number for bitwise operation: ";
+    cin >> f;
+    cout << "Enter the second number for bitwise operation: ";
+    cin >> v;
+    
+    cout << "f & v = " << (f & v) << endl;
+    cout << "f | v = " << (f | v) << endl;
+    cout << "f ^ v = " << (f ^ v) << endl;
+    cout << "~(" << f << ") = " << (~f) << endl;
+    cout << "~(" << v << ") = " << (~v) << endl;
+
+    return 0;
+}
+```
+# Conclusion
+
+Arithmetic Operators: Handle basic math operations like addition and multiplication.
+
+Logical Operators: Evaluate boolean expressions with &&, ||, and !.
+
+Comparison Operators: Compare values using ==, !=, <, >, <=, >=.
+
+Assignment Operators: Combine assignment with operations (e.g., +=, -=).
+
+Bitwise Operators: Perform operations on bits (&, |, ^, ~, <<, >>).
 
 
   
