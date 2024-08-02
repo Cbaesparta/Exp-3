@@ -173,6 +173,9 @@ int main()
     return 0;
 }
 ```
+## OUTPUT
+![Screenshot 2024-08-02 121458](https://github.com/user-attachments/assets/2544601c-de38-4127-9af4-564ec4823012)
+
 # Conclusion
 
 Arithmetic Operators: Handle basic math operations like addition and multiplication.
